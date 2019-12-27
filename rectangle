@@ -1,0 +1,33 @@
+public class Rectangle {
+    public int lenght=6;
+    public int width=7;
+    public int square;
+    public int i;
+    private  int perimeter;
+
+
+    public Rectangle() {
+
+    }
+
+
+
+    public Rectangle(int lenght, int width,int square, int perimeter) {
+        this.lenght = lenght;
+        this.width = width;
+        this.square = square;
+        this.perimeter = perimeter;
+    }
+
+
+    public void square(int i,int i1) {
+        square= lenght*width;
+        System.out.println(square+" "+"Square");
+
+    }
+
+    public void perimeter(int i,int i1) {
+        perimeter= (lenght+width)*2;
+        System.out.println(perimeter + " " + "Perimeter");
+    }
+}
